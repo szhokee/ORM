@@ -1,0 +1,616 @@
+source /home/user/week8/venv/bin/activate
+user@zhokee-inspiron:~/week8$ source /home/user/week8/venv/bin/activate
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Traceback (most recent call last):
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  role "zhokee" is not permitted to log in
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 23, in <module>
+    db.connect()
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3172, in connect
+    with __exception_wrapper__:
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3010, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+peewee.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  role "zhokee" is not permitted to log in
+
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Traceback (most recent call last):
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  role "zhokee" is not permitted to log in
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 23, in <module>
+    db.connect()
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3172, in connect
+    with __exception_wrapper__:
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3010, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+peewee.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  role "zhokee" is not permitted to log in
+
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Traceback (most recent call last):
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  role "zhokee" is not permitted to log in
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 23, in <module>
+    db.connect()
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3172, in connect
+    with __exception_wrapper__:
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3010, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+peewee.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  role "zhokee" is not permitted to log in
+
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Traceback (most recent call last):
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "user"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "user"
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 23, in <module>
+    db.connect()
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3172, in connect
+    with __exception_wrapper__:
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3010, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+peewee.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "user"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "user"
+
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Traceback (most recent call last):
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "user"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "user"
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 23, in <module>
+    db.connect()
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3172, in connect
+    with __exception_wrapper__:
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3010, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+peewee.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "user"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "user"
+
+(venv) user@zhokee-inspiron:~/week8$ psql
+psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "user" does not exist
+(venv) user@zhokee-inspiron:~/week8$ sudo -i -u postgres
+[sudo] пароль для user: 
+postgres@zhokee-inspiron:~$ psql
+psql (14.6 (Ubuntu 14.6-0ubuntu0.22.04.1))
+Type "help" for help.
+
+postgres=# ^Z
+[1]+  Остановлен    psql
+postgres@zhokee-inspiron:~$ exit
+выход
+Есть остановленные задания.
+postgres@zhokee-inspiron:~$ exit
+выход
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Traceback (most recent call last):
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 23, in <module>
+    db.connect()
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3172, in connect
+    with __exception_wrapper__:
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3010, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+peewee.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(venv) user@zhokee-inspiron:~/week8$ psql
+psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "user" does not exist
+(venv) user@zhokee-inspiron:~/week8$ psql
+psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "user" does not exist
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Traceback (most recent call last):
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 23, in <module>
+    db.connect()
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3172, in connect
+    with __exception_wrapper__:
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3010, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+peewee.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Traceback (most recent call last):
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 23, in <module>
+    db.connect()
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3172, in connect
+    with __exception_wrapper__:
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3010, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+peewee.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+(venv) user@zhokee-inspiron:~/week8$ psql -U user
+psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "user" does not exist
+(venv) user@zhokee-inspiron:~/week8$ create database orm_db;
+Команда «create» не найдена. Возможно, вы имели в виду:
+  command 'pcreate' from deb pbuilder-scripts (22)
+Try: sudo apt install <deb name>
+(venv) user@zhokee-inspiron:~/week8$ psql -U postgres
+psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  Peer authentication failed for user "postgres"
+(venv) user@zhokee-inspiron:~/week8$ sudo -i -u postgres
+postgres@zhokee-inspiron:~$ psql
+psql (14.6 (Ubuntu 14.6-0ubuntu0.22.04.1))
+Type "help" for help.
+
+postgres=# \du
+                                   List of roles
+ Role name |                         Attributes                         | Member of 
+-----------+------------------------------------------------------------+-----------
+ my_user   |                                                            | {}
+ postgres  | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
+ zhokee    | Superuser, Create role, Create DB, Cannot login            | {}
+ zholboldu | Superuser                                                  | {}
+
+postgres=# alter role zhokee with login;
+ALTER ROLE
+postgres=# alter role zhokee with password '1';
+ALTER ROLE
+postgres=# \q
+postgres@zhokee-inspiron:~$ exit
+выход
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Traceback (most recent call last):
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "zhokee "
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "zhokee "
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 23, in <module>
+    db.connect()
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3172, in connect
+    with __exception_wrapper__:
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3010, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3173, in connect
+    self._state.set_connection(self._connect())
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 3913, in _connect
+    conn = psycopg2.connect(**params)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+peewee.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "zhokee "
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "zhokee "
+
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 24, in <module>
+    class Category(peewee.Model):
+  File "/home/user/week8/ORM/main.py", line 27, in Category
+    created_at = peewee.DataTimeField(default=datatime.now())
+AttributeError: module 'peewee' has no attribute 'DataTimeField'. Did you mean: 'DateTimeField'?
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 24, in <module>
+    class Category(peewee.Model):
+  File "/home/user/week8/ORM/main.py", line 27, in Category
+    created_at = peewee.DataTimeField(default=datetime.now())
+AttributeError: module 'peewee' has no attribute 'DataTimeField'. Did you mean: 'DateTimeField'?
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 24, in <module>
+    class Category(peewee.Model):
+  File "/home/user/week8/ORM/main.py", line 27, in Category
+    created_at = peewee.DataTimeField(default=datetime.now())
+AttributeError: module 'peewee' has no attribute 'DataTimeField'. Did you mean: 'DateTimeField'?
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+SAVED!!!
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Такая категория уже существует!!!
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+SELECT "t1"."id", "t1"."name", "t1"."created_at" FROM "category" AS "t1"
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+SELECT "t1"."id", "t1"."name", "t1"."created_at" FROM "category" AS "t1"
+1 -- game -- 2023-01-24 11:45:26.637172
+2 -- game2 -- 2023-01-24 11:48:50.948808
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+Deleted!!!
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 78, in <module>
+    delete_category()
+TypeError: delete_category() missing 1 required positional argument: 'category_id'
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+SELECT "t1"."id", "t1"."name", "t1"."created_at" FROM "category" AS "t1"
+2 -- game2 -- 2023-01-24 11:48:50.948808
+Traceback (most recent call last):
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 7072, in get
+    return clone.execute(database)[0]
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 4436, in __getitem__
+    return self.row_cache[item]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/week8/ORM/main.py", line 79, in <module>
+    delete_category(1)
+  File "/home/user/week8/ORM/main.py", line 70, in delete_category
+    category = Category.get(id=category_id)
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 6624, in get
+    return sq.get()
+  File "/home/user/week8/venv/lib/python3.10/site-packages/peewee.py", line 7075, in get
+    raise self.model.DoesNotExist('%s instance matching query does '
+__main__.CategoryDoesNotExist: <Model: Category> instance matching query does not exist:
+SQL: SELECT "t1"."id", "t1"."name", "t1"."created_at" FROM "category" AS "t1" WHERE ("t1"."id" = %s) LIMIT %s OFFSET %s
+Params: [1, 1, 0]
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+SELECT "t1"."id", "t1"."name", "t1"."created_at" FROM "category" AS "t1"
+2 -- game2 -- 2023-01-24 11:48:50.948808
+SELECT "t1"."id", "t1"."name", "t1"."created_at" FROM "category" AS "t1"
+2 -- game2 -- 2023-01-24 11:48:50.948808
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+SELECT "t1"."id", "t1"."name", "t1"."created_at" FROM "category" AS "t1"
+2 -- game2 -- 2023-01-24 11:48:50.948808
+Катагория не найдена!!
+SELECT "t1"."id", "t1"."name", "t1"."created_at" FROM "category" AS "t1"
+2 -- game2 -- 2023-01-24 11:48:50.948808
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+SELECT "t1"."id", "t1"."name", "t1"."created_at" FROM "category" AS "t1"
+2 -- game2 -- 2023-01-24 11:48:50.948808
+Катeгория не найдена!!
+SELECT "t1"."id", "t1"."name", "t1"."created_at" FROM "category" AS "t1"
+2 -- game2 -- 2023-01-24 11:48:50.948808
+(venv) user@zhokee-inspiron:~/week8$ /home/user/week8/venv/bin/python /home/user/week8/ORM/main.py
+SELECT "t1"."id", "t1"."name", "t1"."created_at" FROM "category" AS "t1"
+2 -- game2 -- 2023-01-24 11:48:50.948808
+Обновили
+SELECT "t1"."id", "t1"."name", "t1"."created_at" FROM "category" AS "t1"
+2 -- Sam -- 2023-01-24 11:48:50.948808
+(venv) user@zhokee-inspiron:~/week8$ 
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+user@zhokee-inspiron:~$ sudo -u zhokee psql
+sudo: unknown user zhokee
+sudo: error initializing audit plugin sudoers_audit
+user@zhokee-inspiron:~$ sudo -u postgres psql
+[sudo] пароль для user: 
+could not change directory to "/home/user": Отказано в доступе
+psql (14.6 (Ubuntu 14.6-0ubuntu0.22.04.1))
+Type "help" for help.
+
+postgres=# c\ zhokee
+invalid command \
+Try \? for help.
+postgres-# \du
+postgres-# ;
+ERROR:  syntax error at or near "c"
+LINE 1: c
+        ^
+postgres=# c\ zhokee
+invalid command \
+Try \? for help.
+postgres-# ;
+ERROR:  syntax error at or near "c"
+LINE 1: c
+        ^
+postgres=# \l
+                                   List of databases
+    Name     |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges   
+-------------+----------+----------+-------------+-------------+-----------------------
+ my_user     | postgres | UTF8     | ru_RU.UTF-8 | ru_RU.UTF-8 | 
+ postgres    | postgres | UTF8     | ru_RU.UTF-8 | ru_RU.UTF-8 | 
+ shakespeare | postgres | UTF8     | ru_RU.UTF-8 | ru_RU.UTF-8 | 
+ template0   | postgres | UTF8     | ru_RU.UTF-8 | ru_RU.UTF-8 | =c/postgres          +
+             |          |          |             |             | postgres=CTc/postgres
+ template1   | postgres | UTF8     | ru_RU.UTF-8 | ru_RU.UTF-8 | =c/postgres          +
+             |          |          |             |             | postgres=CTc/postgres
+ test2       | postgres | UTF8     | ru_RU.UTF-8 | ru_RU.UTF-8 | 
+ zhokee      | zhokee   | UTF8     | ru_RU.UTF-8 | ru_RU.UTF-8 | =Tc/zhokee           +
+             |          |          |             |             | zhokee=CTc/zhokee
+(7 rows)
+
+postgres=# \c zhokee
+You are now connected to database "zhokee" as user "postgres".
+zhokee=# CREATE DATABASE orm_py25;
+CREATE DATABASE
+zhokee=# \dt
+          List of relations
+ Schema |  Name   | Type  |  Owner   
+--------+---------+-------+----------
+ public | person2 | table | postgres
+ public | product | table | postgres
+(2 rows)
+
+zhokee=# \q
+user@zhokee-inspiron:~$ sudo -u postgres psql
+[sudo] пароль для user: 
+could not change directory to "/home/user": Отказано в доступе
+psql (14.6 (Ubuntu 14.6-0ubuntu0.22.04.1))
+Type "help" for help.
+
+postgres=# \dt
+           List of relations
+ Schema |   Name    | Type  |  Owner   
+--------+-----------+-------+----------
+ public | customers | table | postgres
+ public | products  | table | postgres
+(2 rows)
+
+postgres=# \c orm_py25
+You are now connected to database "orm_py25" as user "postgres".
+orm_py25=# \dt
+         List of relations
+ Schema |   Name   | Type  | Owner  
+--------+----------+-------+--------
+ public | category | table | zhokee
+(1 row)
+
+orm_py25=# \dt
+         List of relations
+ Schema |   Name   | Type  | Owner  
+--------+----------+-------+--------
+ public | category | table | zhokee
+ public | product  | table | zhokee
+(2 rows)
+
+orm_py25=# select * from category;
+ id | name |         created_at         
+----+------+----------------------------
+  1 | game | 2023-01-24 11:45:26.637172
+(1 row)
+
+orm_py25=# select * from category;
+ id | name  |         created_at         
+----+-------+----------------------------
+  1 | game  | 2023-01-24 11:45:26.637172
+  2 | game2 | 2023-01-24 11:48:50.948808
+(2 rows)
+
+orm_py25=# select * from category;
+ id | name  |         created_at         
+----+-------+----------------------------
+  1 | game  | 2023-01-24 11:45:26.637172
+  2 | game2 | 2023-01-24 11:48:50.948808
+(2 rows)
+
+orm_py25=# select * from category;
+ id | name  |         created_at         
+----+-------+----------------------------
+  1 | game  | 2023-01-24 11:45:26.637172
+  2 | game2 | 2023-01-24 11:48:50.948808
+(2 rows)
+
+orm_py25=# 
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+orm_py25=# select * from product; 
+ id |   name   | price | amount | category_id 
+----+----------+-------+--------+-------------
+  2 | product1 | 30.00 |     10 |           2
+  4 | product1 | 30.00 |     10 |           2
+  5 | product1 | 30.00 |     10 |           2
+  6 | product1 | 30.00 |     10 |           2
+  7 | product1 | 30.00 |     10 |           2
+  8 | product1 | 30.00 |     10 |           2
+  9 | product2 | 30.00 |     10 |           2
+ 10 | product1 | 30.00 |     10 |           2
+ 11 | product2 | 30.00 |     10 |           2
+ 12 | product1 | 30.00 |     10 |           2
+ 14 | product1 | 30.00 |     10 |           2
+ 16 | product1 | 30.00 |     10 |           2
+ 18 | product1 | 30.00 |     10 |           2
+ 20 | product1 | 30.00 |     10 |           2
+ 22 | product1 | 30.00 |     10 |           2
+(15 rows)
+
+orm_py25=# select * from category; 
+ id | name |         created_at         
+----+------+----------------------------
+  2 | Sam  | 2023-01-24 11:48:50.948808
+(1 row)
+
+
+
+
+
+
+
+
+SELECT "t1"."id", "t1"."name", "t1"."created_at" FROM "category" AS "t1"
+2 -- Sam -- 2023-01-24 11:48:50.948808
+product1 -- 30.00 -- 10 -- Sam -- 2
+product1 -- 30.00 -- 10 -- Sam -- 2
+product1 -- 30.00 -- 10 -- Sam -- 2
+product1 -- 30.00 -- 10 -- Sam -- 2
+product1 -- 30.00 -- 10 -- Sam -- 2
+product1 -- 30.00 -- 10 -- Sam -- 2
+product2 -- 30.00 -- 10 -- Sam -- 2
+product1 -- 30.00 -- 10 -- Sam -- 2
+product2 -- 30.00 -- 10 -- Sam -- 2
+product1 -- 30.00 -- 10 -- Sam -- 2
+product1 -- 30.00 -- 10 -- Sam -- 2
+product1 -- 30.00 -- 10 -- Sam -- 2
+product1 -- 30.00 -- 10 -- Sam -- 2
+product1 -- 30.00 -- 10 -- Sam -- 2
+product1 -- 30.00 -- 10 -- Sam -- 2
+
+
+
+
+
+
+
+
+
+
+
+
+
